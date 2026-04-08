@@ -10,7 +10,7 @@ export class PokemonService {
 
   constructor(
     @InjectModel( Pokemon.name )
-    private readonly pokemonModel: Model<PokemonDocument>
+    private readonly pokemonModel: Model<PokemonDocument>,
   ) {
   }
 
