@@ -4,10 +4,10 @@
 
 # Ejecutar en desarrollo
 
-1. Clonar el repositorio
+1. Clonar el repositorio ```https://github.com/SergioRamirez06/pokedex-api-nest.git```
 2. Ejecutar
 ```
-yarn install
+npm install
 ```
 3. Tener Nest CLI instalado
 ```
@@ -26,7 +26,7 @@ docker-compose up -d
 
 7. Ejecutar la aplicación en dev:
 ```
-yarn start:dev
+npm run start:dev
 ```
 
 8. Reconstruir la base de datos con la semilla
